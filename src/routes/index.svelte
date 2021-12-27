@@ -1,2 +1,3 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<main class="container mx-auto px-4 py-4">
+    <h1 class="text-5xl text-center py-3">Prismia Book </h1>
+</main>
