@@ -19,7 +19,7 @@
 			>
 		</p>
 		<div class="text-2xl py-3">
-			The can has the folowing Features;
+			The can has the folowing features;
 			<ul class="mr-2 list-disc px-4 text-cyan-100">
 				<li>Async Data loading using the fetch API</li>
 				<li>List User data</li>

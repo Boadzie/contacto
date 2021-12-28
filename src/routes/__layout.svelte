@@ -1,7 +1,7 @@
 <script>
 	import '../app.css';
 </script>
-<nav class="p-5 w-full">
+<nav class="p-5 w-full py-2">
 	<ul class="flex text-white text-2xl font-bold flex-wrap justify-center items-center space-x-4 -m-2">
 		<li class="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-red-600"><a href="/">Contacto</a></li>
 		<li><a href="/">Home</a></li>
@@ -19,6 +19,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	}
 
 	nav{
-		background-color: #2d2042;
+		background-color: #111827;
 	}
 </style>
