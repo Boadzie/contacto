@@ -17,11 +17,11 @@
 	export let users
 </script>
 <main class="container mx-auto px-4 py-4">
-	<h1 class="text-center py-8 uppercase tracking-widest text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-red-600">Contacto</h1>
-	<div class="flex justify-center items-center min-h-screen">
-		<div class="grid grid-cols-1 gap-4 max-w-5xl w-full lg:grid-cols-2">
+
+	<div class="flex py-14 justify-center items-center min-h-screen">
+		<div class="grid grid-cols-1 gap-5 max-w-5xl w-full lg:grid-cols-2">
 			{#each users as user }
-				  <a href={`/${user.id}`} class="bg-gray-900 p-4 duration-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 rounded-lg text-white shadow-md">
+				  <a sveltekit:prefetch href={`/${user.id}`} class="bg-gray-900 p-4 duration-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 rounded-lg text-white shadow-md">
 					<svg class="w-14 h-14" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
 					<h2 class="text-3xl inline-flex items-center py-2 font-bold">
 						
