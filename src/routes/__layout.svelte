@@ -2,10 +2,12 @@
 	import '../app.css';
 </script>
 <nav class="p-6 w-full ">
-	<ul class="flex text-white text-2xl font-bold flex-wrap justify-center items-center space-x-4 -m-2">
+	<ul class="flex text-white text-2xl lg:mx-56 font-bold flex-wrap lg:justify-between justify-center items-center space-x-4 -m-2">
 		<li class="font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 to-red-600"><a href="/">Contacto</a></li>
-		<li><a href="/">Home</a></li>
+		<div class="flex space-x-4">
+			<li><a href="/">Home</a></li>
 		<li><a href="/about">About</a></li>
+		</div>
 	</ul>
 </nav>
 <main>
