@@ -4,6 +4,7 @@
 	>
 		About Contacto
 	</h1>
+	<img src="static/contacto.gif">
 	<div
 		class="bg-gray-900 p-6 rounded-lg duration-300  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 text-white py-3  mr-auto ml-auto prose prose-2xl text-lg lg:text-2xl max-w-6xl"
 	>
